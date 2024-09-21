@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe MapQuestService do
   before :each do
-    stub_request(:get, "http://www.mapquestapi.com/geocoding/v1/address?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&location=denver,co").
+    stub_request(:get, "http://www.mapquestapi.com/geocoding/v1/address?key=#{Rails.application.credentials.map_quest[:key]}&location=denver,co").
          with(
            headers: {
           'Accept'=>'*/*',
