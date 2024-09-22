@@ -9,7 +9,7 @@ RSpec.describe MapQuestService do
           'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
           'User-Agent'=>'Faraday v2.12.0'
            }).
-         to_return(status: 200, body: File.read("spec/fixtures/mapquest_response.json"), headers: {'Content-Type' => 'application/json'})
+         to_return(status: 200, body: File.read("spec/fixtures/map_quest_response.json"), headers: {'Content-Type' => 'application/json'})
   end
   it 'exists' do
     service = MapQuestService.new('denver,co')
@@ -20,6 +20,7 @@ RSpec.describe MapQuestService do
     service = MapQuestService.new('denver,co')
     result = service.get_coordinates
 
+    #structured right
     expect(result).to be_a(Hash)
 
     # expecting response to have latLng hash with :lat and :lng keys
