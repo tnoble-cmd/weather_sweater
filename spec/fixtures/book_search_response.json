@@ -1,0 +1,351 @@
+{
+    "numFound": 769,
+    "start": 5,
+    "numFoundExact": true,
+    "docs": [
+        {
+            "author_alternative_name": [
+                "Geological Survey (U.S.)",
+                "United States. Geological survey.",
+                "Geological Survey (U. S.)",
+                "U.S. Geological Survey",
+                "United States. Geological Survey",
+                "United States. Geological Survey.",
+                "Geological Survey. (U.S.)",
+                "Geological Survey (U.S.) 088",
+                "Geological Survey (U .S.)"
+            ],
+            "author_key": [
+                "OL79165A"
+            ],
+            "author_name": [
+                "United States Geological Survey"
+            ],
+            "ebook_access": "no_ebook",
+            "ebook_count_i": 0,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10945157M"
+            ],
+            "first_publish_year": 1996,
+            "format": [
+                "Unknown Binding"
+            ],
+            "has_fulltext": false,
+            "isbn": [
+                "0607620056",
+                "9780607620054"
+            ],
+            "key": "/works/OL896607W",
+            "language": [
+                "eng"
+            ],
+            "last_modified_i": 1272517172,
+            "public_scan_b": false,
+            "publish_date": [
+                "1996"
+            ],
+            "publish_year": [
+                1996
+            ],
+            "publisher": [
+                "USGS Branch of Distribution"
+            ],
+            "seed": [
+                "/books/OL10945157M",
+                "/works/OL896607W",
+                "/authors/OL79165A"
+            ],
+            "subtitle": "39105, digital raster graphic data",
+            "title": "Denver west, CO and Bailey, CO: Denver, CO",
+            "title_suggest": "Denver west, CO and Bailey, CO: Denver, CO",
+            "title_sort": "Denver west, CO and Bailey, CO: Denver, CO",
+            "type": "work",
+            "publisher_facet": [
+                "USGS Branch of Distribution"
+            ],
+            "_version_": 1795930279598096384,
+            "author_facet": [
+                "OL79165A United States Geological Survey"
+            ]
+        },
+        {
+            "author_key": [
+                "OL2806763A"
+            ],
+            "author_name": [
+                "Laura M. Mauck"
+            ],
+            "cover_edition_key": "OL7900786M",
+            "cover_i": 1371298,
+            "ebook_access": "no_ebook",
+            "ebook_count_i": 0,
+            "edition_count": 1,
+            "edition_key": [
+                "OL7900786M"
+            ],
+            "first_publish_year": 2001,
+            "first_sentence": [
+                "After the Civil War, freed slaves came west from the south looking for work."
+            ],
+            "format": [
+                "Paperback"
+            ],
+            "has_fulltext": false,
+            "isbn": [
+                "0738518700",
+                "9780738518701"
+            ],
+            "key": "/works/OL8415118W",
+            "language": [
+                "eng"
+            ],
+            "last_modified_i": 1677135457,
+            "lccn": [
+                "2001088811"
+            ],
+            "number_of_pages_median": 128,
+            "oclc": [
+                "47691535"
+            ],
+            "public_scan_b": false,
+            "publish_date": [
+                "June 11, 2001"
+            ],
+            "publish_year": [
+                2001
+            ],
+            "publisher": [
+                "Arcadia",
+                "Arcadia  Publishing (SC)"
+            ],
+            "seed": [
+                "/books/OL7900786M",
+                "/works/OL8415118W",
+                "/authors/OL2806763A",
+                "/subjects/african_americans_west_(u.s.)",
+                "/subjects/denver_(colo.)_history",
+                "/subjects/african_americans",
+                "/subjects/history"
+            ],
+            "title": "Five Points Neighborhood of Denver  (CO)",
+            "title_suggest": "Five Points Neighborhood of Denver  (CO)",
+            "title_sort": "Five Points Neighborhood of Denver  (CO)",
+            "type": "work",
+            "id_librarything": [
+                "3305602"
+            ],
+            "subject": [
+                "African americans, west (u.s.)",
+                "Denver (colo.), history",
+                "African Americans",
+                "History"
+            ],
+            "publisher_facet": [
+                "Arcadia",
+                "Arcadia  Publishing (SC)"
+            ],
+            "subject_facet": [
+                "African Americans",
+                "African americans, west (u.s.)",
+                "Denver (colo.), history",
+                "History"
+            ],
+            "_version_": 1795929017019269120,
+            "author_facet": [
+                "OL2806763A Laura M. Mauck"
+            ],
+            "subject_key": [
+                "african_americans",
+                "african_americans_west_(u.s.)",
+                "denver_(colo.)_history",
+                "history"
+            ]
+        },
+        {
+            "author_key": [
+                "OL2859862A"
+            ],
+            "author_name": [
+                "American Map Corp"
+            ],
+            "cover_edition_key": "OL9197762M",
+            "cover_i": 2302739,
+            "ebook_access": "no_ebook",
+            "ebook_count_i": 0,
+            "edition_count": 1,
+            "edition_key": [
+                "OL9197762M"
+            ],
+            "first_publish_year": 2006,
+            "format": [
+                "Map"
+            ],
+            "has_fulltext": false,
+            "isbn": [
+                "9789812582621",
+                "9812582622"
+            ],
+            "key": "/works/OL8541064W",
+            "language": [
+                "eng"
+            ],
+            "last_modified_i": 1670155218,
+            "number_of_pages_median": 1,
+            "oclc": [
+                "64038908"
+            ],
+            "public_scan_b": false,
+            "publish_date": [
+                "January 30, 2006"
+            ],
+            "publish_year": [
+                2006
+            ],
+            "publisher": [
+                "American Map Corporation"
+            ],
+            "seed": [
+                "/books/OL9197762M",
+                "/works/OL8541064W",
+                "/authors/OL2859862A"
+            ],
+            "title": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+            "title_suggest": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+            "title_sort": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+            "type": "work",
+            "publisher_facet": [
+                "American Map Corporation"
+            ],
+            "_version_": 1795929299108233217,
+            "author_facet": [
+                "OL2859862A American Map Corp"
+            ]
+        },
+        {
+            "author_key": [
+                "OL7546291A"
+            ],
+            "author_name": [
+                "N.D. Author Services"
+            ],
+            "cover_edition_key": "OL33223956M",
+            "cover_i": 11936540,
+            "ebook_access": "no_ebook",
+            "ebook_count_i": 0,
+            "edition_count": 1,
+            "edition_key": [
+                "OL33223956M"
+            ],
+            "first_publish_year": 2016,
+            "format": [
+                "paperback"
+            ],
+            "has_fulltext": false,
+            "isbn": [
+                "1541184254",
+                "9781541184251"
+            ],
+            "key": "/works/OL24993703W",
+            "last_modified_i": 1631123055,
+            "number_of_pages_median": 158,
+            "public_scan_b": false,
+            "publish_date": [
+                "Dec 17, 2016"
+            ],
+            "publish_year": [
+                2016
+            ],
+            "publisher": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "seed": [
+                "/books/OL33223956M",
+                "/works/OL24993703W",
+                "/authors/OL7546291A"
+            ],
+            "title": "Denver, CO, US Dot-Grid Notebook",
+            "title_suggest": "Denver, CO, US Dot-Grid Notebook",
+            "title_sort": "Denver, CO, US Dot-Grid Notebook",
+            "type": "work",
+            "publisher_facet": [
+                "CreateSpace Independent Publishing Platform",
+                "Createspace Independent Publishing Platform"
+            ],
+            "_version_": 1795887055255896065,
+            "author_facet": [
+                "OL7546291A N.D. Author Services"
+            ]
+        },
+        {
+            "author_alternative_name": [
+                "Geological Survey (U.S.)",
+                "United States. Geological survey.",
+                "Geological Survey (U. S.)",
+                "U.S. Geological Survey",
+                "United States. Geological Survey",
+                "United States. Geological Survey.",
+                "Geological Survey. (U.S.)",
+                "Geological Survey (U.S.) 088",
+                "Geological Survey (U .S.)"
+            ],
+            "author_key": [
+                "OL79165A"
+            ],
+            "author_name": [
+                "United States Geological Survey"
+            ],
+            "ebook_access": "no_ebook",
+            "ebook_count_i": 0,
+            "edition_count": 1,
+            "edition_key": [
+                "OL10945156M"
+            ],
+            "first_publish_year": 1996,
+            "format": [
+                "Unknown Binding"
+            ],
+            "has_fulltext": false,
+            "isbn": [
+                "0607620048",
+                "9780607620047"
+            ],
+            "key": "/works/OL896605W",
+            "language": [
+                "eng"
+            ],
+            "last_modified_i": 1272517172,
+            "public_scan_b": false,
+            "publish_date": [
+                "1996"
+            ],
+            "publish_year": [
+                1996
+            ],
+            "publisher": [
+                "USGS Branch of Distribution"
+            ],
+            "seed": [
+                "/books/OL10945156M",
+                "/works/OL896605W",
+                "/authors/OL79165A"
+            ],
+            "subtitle": "39104, digital raster graphic data",
+            "title": "Denver East, CO and Castle Rock, CO: Denver, CO",
+            "title_suggest": "Denver East, CO and Castle Rock, CO: Denver, CO",
+            "title_sort": "Denver East, CO and Castle Rock, CO: Denver, CO",
+            "type": "work",
+            "publisher_facet": [
+                "USGS Branch of Distribution"
+            ],
+            "_version_": 1795930279580270593,
+            "author_facet": [
+                "OL79165A United States Geological Survey"
+            ]
+        }
+    ],
+    "num_found": 769,
+    "q": "denver,co",
+    "offset": 5
+}
