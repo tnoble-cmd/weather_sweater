@@ -28,9 +28,11 @@ RSpec.describe 'User Create API' do
 
       expect(parsed_response[:data]).to have_key(:id)
       expect(parsed_response[:data][:id]).to be_a String
+      expect(parsed_response[:data][:id]).to eq(User.last.id.to_s)
 
       expect(parsed_response[:data]).to have_key(:type)
       expect(parsed_response[:data][:type]).to be_a String
+      expect(parsed_response[:data][:type]).to eq('user')
 
       expect(parsed_response[:data]).to have_key(:attributes)
       expect(parsed_response[:data][:attributes]).to be_a Hash
@@ -41,6 +43,7 @@ RSpec.describe 'User Create API' do
       expect(parsed_response[:data][:attributes]).to have_key(:api_key)
       expect(parsed_response[:data][:attributes][:api_key]).to be_a String
       expect(parsed_response[:data][:attributes][:api_key].length).to eq(32)
+      expect(parsed_response[:data][:attributes][:api_key]).to eq(User.last.api_key)
 
       # Ensure password is not returned
       expect(parsed_response[:data][:attributes]).to_not have_key(:password)
