@@ -56,6 +56,7 @@ RSpec.describe Api::V1::ForecastController, type: :controller do
         expect(day).to have_key(:condition)
         expect(day).to have_key(:icon)
       end
+      expect(attributes[:daily_weather].count).to eq(5) # 5 days
 
       # Check hourly weather attributes
       attributes[:hourly_weather].each do |hour|
@@ -64,6 +65,7 @@ RSpec.describe Api::V1::ForecastController, type: :controller do
         expect(hour).to have_key(:condition)
         expect(hour).to have_key(:icon)
       end
+      expect(attributes[:hourly_weather].count).to eq(24) # 24 hours
     end
   end
 end

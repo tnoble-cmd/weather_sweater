@@ -14,8 +14,6 @@ gem "puma", ">= 5.0"
 gem 'faraday'
 gem 'jsonapi-serializer'
 
-gem 'shoulda-matchers'
-
 gem 'bcrypt'
 
 group :test do 
@@ -23,6 +21,7 @@ group :test do
   gem "capybara"
   gem "simplecov"
   gem "webmock"
+  gem 'shoulda-matchers'
 end
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
