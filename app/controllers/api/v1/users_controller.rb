@@ -4,7 +4,7 @@ class Api::V1::UsersController < ApplicationController
     if user.save
       render json: UsersSerializer.new(user).serializable_hash.to_json, status: :created
     else
-      render json: { errors: user.errors.full_messages.to_sentence }, status: :bad_request
+      render json: { errors: user.errors.full_messages.uniq.to_sentence }, status: :bad_request
     end
   end
 

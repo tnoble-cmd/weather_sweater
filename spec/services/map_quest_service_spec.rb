@@ -11,14 +11,11 @@ RSpec.describe MapQuestService do
            }).
          to_return(status: 200, body: File.read("spec/fixtures/map_quest_response.json"), headers: {'Content-Type' => 'application/json'})
   end
-  it 'exists' do
-    service = MapQuestService.new('denver,co')
-    expect(service).to be_a(MapQuestService)
-  end
 
   it 'can get coordinates' do
-    service = MapQuestService.new('denver,co')
-    result = service.get_coordinates
+    # service = MapQuestService.get_coordinates('denver,co')
+    # result = service.get_coordinates
+    result = MapQuestService.get_coordinates('denver,co')
 
     #structured right
     expect(result).to be_a(Hash)
@@ -29,5 +26,24 @@ RSpec.describe MapQuestService do
 
     expect(result[:lat]).to eq(39.74001)
     expect(result[:lng]).to eq(-104.99202)
+  end
+
+  it 'can get directions' do
+    stub_request(:get, "http://www.mapquestapi.com/directions/v2/route?from=denver,co&key=#{Rails.application.credentials.map_quest[:key]}&to=boulder,co").
+         with(
+           headers: {
+          'Accept'=>'*/*',
+          'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+          'User-Agent'=>'Faraday v2.12.0'
+           }).
+         to_return(status: 200, body: File.read("spec/fixtures/map_quest_directions_fixture.json"), headers: {'Content-Type' => 'application/json'})
+
+
+    result = MapQuestService.get_directions('denver,co', 'boulder,co')
+
+    expect(result).to be_a(Hash)
+    expect(result).to have_key(:time)
+    expect(result).to have_key(:legs)
+    expect(result[:legs]).to be_a(Array)
   end
 end
