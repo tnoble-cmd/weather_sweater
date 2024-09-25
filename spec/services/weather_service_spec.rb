@@ -8,8 +8,8 @@ RSpec.describe WeatherService do
 
   describe 'GET /v1/forecast.json' do
     it 'returns the weather for a given location' do
-      weather_service = WeatherService.new(39.738453, -104.984853) #from Denver mapquest response
-      weather_data = weather_service.get_weather
+      weather_data = WeatherService.get_weather(39.738453, -104.984853) #from Denver mapquest response
+      
 
       #structured right
       expect(weather_data).to be_a Hash

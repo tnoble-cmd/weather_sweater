@@ -3,10 +3,10 @@ require 'rails_helper'
 RSpec.describe Api::V1::ForecastController, type: :controller do
   before :each do
     coordinates = JSON.parse(File.read('spec/fixtures/map_quest_response.json'), symbolize_names: true)
-    allow_any_instance_of(MapQuestService).to receive(:get_coordinates).and_return(coordinates)
+    allow(MapQuestService).to receive(:get_coordinates).and_return(coordinates)
 
     forecast_data = JSON.parse(File.read('spec/fixtures/weather_response.json'), symbolize_names: true)
-    allow_any_instance_of(WeatherService).to receive(:get_weather).and_return(forecast_data)
+    allow(WeatherService).to receive(:get_weather).and_return(forecast_data)
   end
 
   describe 'GET #show' do

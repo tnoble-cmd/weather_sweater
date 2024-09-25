@@ -1,0 +1,360 @@
+{
+    "route": {
+        "sessionId": "AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car",
+        "realTime": 1958,
+        "distance": 29.3958,
+        "time": 1891,
+        "formattedTime": "00:31:31",
+        "hasHighway": true,
+        "hasTollRoad": false,
+        "hasBridge": true,
+        "hasSeasonalClosure": false,
+        "hasTunnel": false,
+        "hasFerry": false,
+        "hasUnpaved": false,
+        "hasTimedRestriction": false,
+        "hasCountryCross": false,
+        "legs": [
+            {
+                "index": 0,
+                "hasTollRoad": false,
+                "hasHighway": true,
+                "hasBridge": true,
+                "hasUnpaved": false,
+                "hasTunnel": false,
+                "hasSeasonalClosure": false,
+                "hasFerry": false,
+                "hasCountryCross": false,
+                "hasTimedRestriction": false,
+                "distance": 29.3958,
+                "time": 1958,
+                "formattedTime": "00:32:38",
+                "origIndex": 0,
+                "origNarrative": "",
+                "destIndex": 0,
+                "destNarrative": "",
+                "maneuvers": [
+                    {
+                        "index": 0,
+                        "distance": 0.0193,
+                        "narrative": "Head toward Cherokee St on W Colfax Ave (I-70-BL E). Go for 102 ft.",
+                        "time": 13,
+                        "direction": 8,
+                        "directionName": "East",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:13",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.74001,
+                            "lng": -104.99202
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-70-BL",
+                            "US-40",
+                            "US-287",
+                            "W Colfax Ave"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=39.74001,-104.99202|marker-1||39.74001,-104.99166|marker-2||&center=39.74001,-104.99184&defaultMarker=none&zoom=16&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 1,
+                        "distance": 0.9861,
+                        "narrative": "Make a U-Turn at Cherokee St onto W Colfax Ave (I-70-BL W). Go for 1.0 mi.",
+                        "time": 172,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:02:52",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.74001,
+                            "lng": -104.99166
+                        },
+                        "turnType": 9,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-70-BL",
+                            "US-40",
+                            "US-287",
+                            "W Colfax Ave"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=39.74001,-104.99166|marker-2||39.74036000000003,-105.00995999999998|marker-3||&center=39.74018500000001,-105.00080999999999&defaultMarker=none&zoom=13&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 2,
+                        "distance": 6.4995,
+                        "narrative": "Take ramp onto I-25 N (N Valley Hwy) toward Ft Collins. Go for 6.5 mi.",
+                        "time": 377,
+                        "direction": 1,
+                        "directionName": "North",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:06:17",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.74036000000003,
+                            "lng": -105.00995999999998
+                        },
+                        "turnType": 12,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-25",
+                            "US-87",
+                            "N Valley Hwy"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=39.74036000000003,-105.00995999999998|marker-3||39.82142000000001,-104.98252999999991|marker-4||&center=39.78089000000002,-104.99624499999994&defaultMarker=none&zoom=10&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 3,
+                        "distance": 19.887,
+                        "narrative": "Take left exit 217A toward Westminster/Boulder onto US-36 W (Denver-Boulder Tpke). Go for 19.9 mi.",
+                        "time": 1099,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:18:19",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.82142000000001,
+                            "lng": -104.98252999999991
+                        },
+                        "turnType": 15,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "US-36",
+                            "Denver-Boulder Tpke"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=39.82142000000001,-104.98252999999991|marker-4||39.99771999999998,-105.25413000000002|marker-5||&center=39.909569999999995,-105.11832999999996&defaultMarker=none&zoom=8&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 4,
+                        "distance": 0.2355,
+                        "narrative": "Take the exit toward CO-93/Baseline Rd. Go for 0.2 mi.",
+                        "time": 37,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:37",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.99771999999998,
+                            "lng": -105.25413000000002
+                        },
+                        "turnType": 14,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=39.99771999999998,-105.25413000000002|marker-5||40.00012999999999,-105.25708000000003|marker-6||&center=39.998924999999986,-105.25560500000003&defaultMarker=none&zoom=15&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 5,
+                        "distance": 0.1367,
+                        "narrative": "Turn left onto Baseline Rd. Go for 0.1 mi.",
+                        "time": 27,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:27",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 40.00012999999999,
+                            "lng": -105.25708000000003
+                        },
+                        "turnType": 6,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "Baseline Rd"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=40.00012999999999,-105.25708000000003|marker-6||40.00045999999999,-105.25948000000005|marker-7||&center=40.000294999999994,-105.25828000000004&defaultMarker=none&zoom=15&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 6,
+                        "distance": 0.1964,
+                        "narrative": "Continue on Baseline Rd toward Broadway/CO-93 N. Go for 0.2 mi.",
+                        "time": 48,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:48",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 40.00045999999999,
+                            "lng": -105.25948000000005
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "Baseline Rd"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=40.00045999999999,-105.25948000000005|marker-7||40.00020999999998,-105.26315000000007|marker-8||&center=40.000334999999986,-105.26131500000005&defaultMarker=none&zoom=15&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 7,
+                        "distance": 1.4354,
+                        "narrative": "Turn right onto Broadway St (CO-93 N). Go for 1.4 mi.",
+                        "time": 185,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:03:05",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 40.00020999999998,
+                            "lng": -105.26315000000007
+                        },
+                        "turnType": 2,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "CO-93",
+                            "Broadway St",
+                            "University of Colorado"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=FDZWOBXB50jP64RpfVW8G5fWFCZxaizj&size=225,160&locations=40.00020999999998,-105.26315000000007|marker-8||40.01574,-105.2792400000001|marker-9||&center=40.00797499999999,-105.27119500000009&defaultMarker=none&zoom=12&session=AHoA_v___wYAAQCoAAAAeNpjWMHAwMTAwMCekVqUapWcK8ppLA3kMiiYbN_BwWN1Msx0U5FTDDrNgAXATDCqKwWb4LUj-TMDz7l6JdOlS0piYPR5IL0ESDPgAP3pYd8nA-kGVhaOIFYGBiBy4FJ0YBBQZgQAwAQlxR8gyvM:car"
+                    },
+                    {
+                        "index": 8,
+                        "distance": 0,
+                        "narrative": "Arrive at Broadway St (CO-93).",
+                        "time": 0,
+                        "direction": 0,
+                        "directionName": "None",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:00",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 40.01574,
+                            "lng": -105.2792400000001
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": []
+                    }
+                ]
+            }
+        ],
+        "options": {
+            "routeType": "FASTEST",
+            "narrativeType": "text",
+            "enhancedNarrative": false,
+            "walkingSpeed": -1,
+            "highwayEfficiency": 22,
+            "avoids": false,
+            "generalize": -1,
+            "shapeFormat": "raw",
+            "unit": "M",
+            "locale": "en_US",
+            "useTraffic": false,
+            "timeType": 0,
+            "dateType": 0,
+            "doReverseGeocode": true,
+            "manMaps": true,
+            "tollCost": false,
+            "sideOfStreetDisplay": true
+        },
+        "boundingBox": {
+            "ul": {
+                "lat": 40.01574,
+                "lng": -105.2792400000001
+            },
+            "lr": {
+                "lat": 39.74001,
+                "lng": -104.98172999999993
+            }
+        },
+        "name": "US-36",
+        "maxRoutes": "",
+        "locations": [
+            {
+                "street": "",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "Denver",
+                "adminArea5Type": "City",
+                "adminArea4": "Denver",
+                "adminArea4Type": "County",
+                "adminArea3": "CO",
+                "adminArea3Type": "State",
+                "adminArea1": "US",
+                "adminArea1Type": "Country",
+                "postalCode": "",
+                "geocodeQualityCode": "A5XAX",
+                "geocodeQuality": "CITY",
+                "dragPoint": false,
+                "sideOfStreet": "N",
+                "linkId": "0",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": 39.74001,
+                    "lng": -104.99202
+                },
+                "displayLatLng": {
+                    "lat": 39.74001,
+                    "lng": -104.99202
+                },
+                "mapUrl": ""
+            },
+            {
+                "street": "",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "Boulder",
+                "adminArea5Type": "City",
+                "adminArea4": "Boulder",
+                "adminArea4Type": "County",
+                "adminArea3": "CO",
+                "adminArea3Type": "State",
+                "adminArea1": "US",
+                "adminArea1Type": "Country",
+                "postalCode": "",
+                "geocodeQualityCode": "A5XAX",
+                "geocodeQuality": "CITY",
+                "dragPoint": false,
+                "sideOfStreet": "N",
+                "linkId": "0",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": 40.01574,
+                    "lng": -105.27924
+                },
+                "displayLatLng": {
+                    "lat": 40.01574,
+                    "lng": -105.27924
+                },
+                "mapUrl": ""
+            }
+        ],
+        "locationSequence": [
+            0,
+            1
+        ]
+    },
+    "info": {
+        "statuscode": 0,
+        "copyright": {
+            "text": "© 2024 MapQuest, Inc.",
+            "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+            "imageAltText": "© 2024 MapQuest, Inc."
+        },
+        "messages": []
+    }
+}
